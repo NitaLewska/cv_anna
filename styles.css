@@ -1,0 +1,144 @@
+/* Box Model Fix */
+html {
+    box-sizing: border-box;
+    
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0px;
+}
+
+h3{
+    font-size: 25px;
+    text-align: center;
+    padding: 1%;
+    font-family: 'Syne Mono', monospace;
+}
+
+hr {
+margin: 2%;
+
+}
+
+header {
+    background-color:#07020D;
+    color: #F4F4F6;
+    top: 0px;
+    position:static;
+    padding: 2% 2% 1% 2%;
+    font-family: 'Syne Mono', monospace;
+}
+h1{
+    font-size: 45px;
+}
+
+header navbar{
+    background-color:#07020D;
+    color: #F4F4F6;
+    list-style: none;
+    text-align: right;
+}
+
+header li {
+    display: inline;
+    padding: 0.5%;
+    font-size: 20px;
+
+}
+
+header a{
+    text-decoration: none;
+    color: #F4F4F6;
+}
+
+header a:hover {
+    color: #C9C9Cf;
+}
+
+main{
+    padding: 2% 4%;
+    background-image: url(/src/img/AffectionateHonorableAmericanwarmblood-small.gif);
+    background-attachment: fixed;
+    background-size: 100vmax;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about_me img{
+    width: 100%;
+    padding: 5%;
+    
+}
+
+.about_me {
+    display: grid;
+    grid-template-columns: auto; 
+    align-items: center;  
+    
+}
+.about_me h3 {
+    grid-column: 1/5;
+}
+.portfolio {
+    display: grid;
+    grid-template-columns: 2fr 2fr;  
+    grid-template-rows: auto;
+    align-items: center;  
+    margin-bottom: auto;
+    gap: 20px 20px;
+}
+
+.portfolio h3 {
+    grid-column: 1/3;
+}
+.portfolio img {
+    width: 100%;
+
+}
+.education {
+    display: grid;
+    grid-template-columns: 1fr 1fr;  
+    align-items: center; 
+    gap: 20px 20px;
+}
+.education h3 {
+    grid-column: 1/3;
+}
+.education img {
+    width: 100%;
+}
+.certificates {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;  
+    align-items: center;   
+    gap: 20px 20px;
+}
+
+.certificates h3 {
+    grid-column: 1/4;
+}
+
+.certificates img {
+    width: 100%;
+}
+
+footer {
+    background-color:#07020D;
+    color: #F4F4F6;
+    top: 0px;
+    padding: 2% 2% 2% 2%;
+    font-family: 'Syne Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media(max-width: 600px) {
+    .about_me {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+    }
+    .about_me h3 {
+        grid-column: 1/1;
+    }
+}
