@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="src/flickity/flickity.min.css" media="screen" />
+    <script src="src/flickity/flickity.pkgd.min.js" async></script>
     <style>
       @import url("https://fonts.googleapis.com/css2?family=Montserrat&family=Syne+Mono&display=swap");
     </style>
@@ -29,15 +31,11 @@
           <h3 id="about">About Me</h3>
           <p>
             I studied Electrical Engineering, I worked as a realtor, as a school
-            teacher and tried a lot of other jobs, but now I'm studying Web Development, finally on my way
-            to my childhood dream!
+            teacher and tried a lot of other jobs, but now I'm studying Web
+            Development, finally on my way to my childhood dream!
           </p>
-          <p>
-            Current city: Lipetsk, Russia
-          </p>
-          <p>
-
-          </p>
+          <p>Current city: Lipetsk, Russia</p>
+          <p></p>
         </article>
         <img src="src/img/self.jpg" alt="" />
       </section>
@@ -60,12 +58,21 @@
       </section>
       <hr />
       <section>
-          <h3 id="education">Education</h3>
+        <h3 id="education">Education</h3>
       </section>
       <hr />
-      <div class="certificates">
+      <section class="certificates">
         <h3 id="certificates">Certificates</h3>
-      </div>
+        <div class="main-carousel" data-flickity='{ "cellAlign": "center", "freeScroll": true, "wrapAround": true}'>
+          <div class="carousel-cell"><img src="src/certificates/CertificateOfCompletion_Become a FrontEnd Web Developer.jpg" alt=""></div>
+          <div class="carousel-cell"><img src="src/certificates/CertificateOfCompletion_Become a Web Developer.jpg" alt=""></div>
+          <div class="carousel-cell"><img src="src/certificates/CertificateOfCompletion_HTML Essential Training.jpg" alt=""></div>
+          <div class="carousel-cell"><img src="src/certificates/CertificateOfCompletion_CSS Essential Training.jpg" alt=""></div>
+          <div class="carousel-cell"><img src="src/certificates/CertificateOfCompletion_Git Essential Training The Basics.jpg" alt=""></div>
+          <div class="carousel-cell"><img src="src/certificates/CertificateOfCompletion_JavaScript Essential Training.jpg" alt=""></div>
+
+        </div>
+      </section>
       <hr />
       <section class="links">
         <h3 id="links">Contact Me!</h3>
@@ -75,7 +82,9 @@
             <a href="https://twitter.com/nita_lewska">Twitter</a>
           </li>
           <li>
-            <a href="https://www.linkedin.com/in/anna-muzalevskaya/">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/anna-muzalevskaya/"
+              >LinkedIn</a
+            >
             <img src="src/icons/icons8-linkedin.svg" alt="LinkedIn" />
           </li>
           <li>
