@@ -110,7 +110,8 @@ main {
 .skills div {
   display: flex;
   justify-content: space-around;
-  width: 80%;
+  width: 100%;
+  flex-wrap: wrap;
   margin-bottom: 2%;
 }
 
@@ -248,7 +249,88 @@ aside button {
   right: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 1023px) {
+
+h3 {
+    font-size: 20px;
+}
+
+  /* HEADER */
+
+header {
+  padding: 2% 4% 1% 4%;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+header h2 {
+  font-size: 15px;
+}
+
+header li {
+  font-size: 15px;
+}
+
+/* MAIN */
+
+main {
+  width: 95%;
+  padding: 2% 2%;
+}
+
+/* ABOUT ME */
+
+.about img {
+  width: 75%;
+  padding: 5%;
+}
+
+.about article {
+  width: 80%;
+  font-size: 12px;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  margin-bottom: 6%;
+}
+
+/* EDUCATION */
+
+.education {
+  row-gap: 30px;
+}
+
+.education img {
+  width: 80%;
+}
+
+.education article {
+  width:70%;
+  font-size: 14px;
+}
+
+/* CERTIFICATES */
+
+.certificates {
+  margin-bottom: 6%;
+}
+
+.certificates .carousel-cell {
+  width: 300px;
+}
+
+.certificates .carousel-cell img {
+  width: 300px;
+}
+
+aside button {
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+}
 }
 
 @media (max-width: 600px) {
