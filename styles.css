@@ -125,13 +125,14 @@ main {
 }
 
 .portfolio .carousel-cell {
-  width: 800px;
+  width: 66vw;
   margin-right: 40px;
   counter-increment: gallery-cell;
+  padding-bottom: 20px;
 }
 
 .portfolio .carousel-cell img {
-  width: 800px;
+  width: 66vw;
   height: max-content;
   border-radius: 15px;
   border: 1px rgb(216, 216, 216) solid;
@@ -171,9 +172,9 @@ main {
 
 .certificates .carousel-cell {
   width: 500px;
-  height: 400px;
   margin-right: 10px;
   counter-increment: gallery-cell;
+  padding-bottom: 20px;
 }
 
 .certificates .carousel-cell img {
