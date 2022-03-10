@@ -112,6 +112,8 @@ main {
   justify-content: space-around;
   width: 100%;
   flex-wrap: wrap;
+  flex-flow: wrap;
+  -webkit-flex-flow: wrap;
   margin-bottom: 2%;
 }
 
