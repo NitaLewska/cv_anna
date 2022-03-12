@@ -143,6 +143,10 @@ main {
 .portfolio .carousel-cell img {
   width: 66vw;
   height: max-content;
+  height: -moz-max-content;
+  height: -webkit-max-content;
+  height: -o-max-content;
+  height: -ms-max-content;
   border-radius: 15px;
   border: 1px rgb(216, 216, 216) solid;
 }
@@ -189,6 +193,10 @@ main {
 .certificates .carousel-cell img {
   width: 500px;
   height: max-content;
+  height: -moz-max-content;
+  height: -webkit-max-content;
+  height: -o-max-content;
+  height: -ms-max-content;
 }
 
 /* LINKS */
