@@ -305,7 +305,7 @@ aside button:hover {
 
   .about img {
     width: 75%;
-    padding: 5%;
+    margin: 5%;
   }
 
   .about article {
@@ -385,7 +385,7 @@ aside button:hover {
 
   .about img {
     width: 75%;
-    padding: 5%;
+    margin: 5%;
   }
 
   .about article {
@@ -433,9 +433,4 @@ aside button:hover {
     width: 40%;
   }
 
-  aside button {
-    position: fixed;
-    bottom: 50px;
-    right: 10px;
-  }
 }
