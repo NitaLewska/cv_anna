@@ -319,6 +319,15 @@ aside button:hover {
     margin-bottom: 6%;
   }
 
+  .portfolio .carousel-cell {
+    width: 80vw;
+    margin-right: 20px;
+  }
+  
+  .portfolio .carousel-cell img {
+    width: 80vw;
+  }
+
   /* EDUCATION */
 
   .education {
@@ -405,7 +414,7 @@ aside button:hover {
 
   .portfolio .carousel-cell {
     width: 80vw;
-    margin-right: 20px;
+    margin-right: 10px;
   }
   
   .portfolio .carousel-cell img {
