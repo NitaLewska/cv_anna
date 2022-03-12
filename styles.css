@@ -383,8 +383,13 @@ aside button:hover {
 
   /* ABOUT ME */
 
+  .about {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
   .about img {
-    width: 75%;
+    width: 60%;
     margin: 5%;
   }
 
@@ -396,6 +401,15 @@ aside button:hover {
   /* PORTFOLIO */
   .portfolio {
     margin-bottom: 10%;
+  }
+
+  .portfolio .carousel-cell {
+    width: 80vw;
+    margin-right: 20px;
+  }
+  
+  .portfolio .carousel-cell img {
+    width: 80vw;
   }
 
   /* EDUCATION */
