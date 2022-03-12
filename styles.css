@@ -111,10 +111,11 @@ main {
   display: flex;
   justify-content: space-around;
   width: 100%;
-  flex-wrap: wrap;
-  flex-flow: wrap;
-  -webkit-flex-flow: wrap;
   margin-bottom: 2%;
+}
+
+.skills img {
+  width: 12%;
 }
 
 /* PORTFOLIO */
@@ -295,6 +296,7 @@ main {
 }
 
 /* PORTFOLIO */
+
 .portfolio {
   margin-bottom: 6%;
 }
@@ -333,7 +335,93 @@ aside button {
   bottom: 50px;
   right: 10px;
 }
+
+/* CONTACTS */
+
+.links li {
+  width: 25%;
+}
+
 }
 
 @media (max-width: 600px) {
+  h3 {
+    font-size: 20px;
+}
+
+  /* HEADER */
+
+header {
+  padding: 3% 6% 3% 8%;
+}
+
+header ul {
+  display: none;
+}
+
+/* MAIN */
+
+main {
+  width: 95%;
+  padding: 2% 2%;
+}
+
+/* ABOUT ME */
+
+.about img {
+  width: 75%;
+  padding: 5%;
+}
+
+.about article {
+  width: 80%;
+  font-size: 12px;
+}
+
+/* PORTFOLIO */
+.portfolio {
+  margin-bottom: 10%;
+}
+
+/* EDUCATION */
+
+.education {
+  display: flex;
+  flex-direction: column;
+}
+
+.education {
+  row-gap: 30px;
+}
+
+.education article:last-of-type {
+  order: 1;
+}
+
+
+/* CERTIFICATES */
+
+.certificates {
+  margin-bottom: 10%;
+}
+
+.certificates .carousel-cell {
+  width: 300px;
+}
+
+.certificates .carousel-cell img {
+  width: 300px;
+}
+
+/* CONTACTS */
+
+.links li {
+  width: 40%;
+}
+
+aside button {
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+}
 }
