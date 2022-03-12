@@ -135,6 +135,7 @@ main {
 
 .portfolio .carousel-cell {
   width: 66vw;
+  height: 37vw;
   margin-right: 40px;
   counter-increment: gallery-cell;
   margin-bottom: 20px;
@@ -142,11 +143,7 @@ main {
 
 .portfolio .carousel-cell img {
   width: 66vw;
-  height: max-content;
-  height: -moz-max-content;
-  height: -webkit-max-content;
-  height: -o-max-content;
-  height: -ms-max-content;
+  height: 37vw;
   border-radius: 15px;
   border: 1px rgb(216, 216, 216) solid;
 }
@@ -185,6 +182,7 @@ main {
 
 .certificates .carousel-cell {
   width: 500px;
+  height: 387px;
   margin-right: 10px;
   counter-increment: gallery-cell;
   padding-bottom: 20px;
@@ -192,11 +190,7 @@ main {
 
 .certificates .carousel-cell img {
   width: 500px;
-  height: max-content;
-  height: -moz-max-content;
-  height: -webkit-max-content;
-  height: -o-max-content;
-  height: -ms-max-content;
+  height: 387px;
 }
 
 /* LINKS */
@@ -329,11 +323,13 @@ aside button:hover {
 
   .portfolio .carousel-cell {
     width: 80vw;
+    height: 45vw;
     margin-right: 20px;
   }
   
   .portfolio .carousel-cell img {
     width: 80vw;
+    height: 45vw;
   }
 
   /* EDUCATION */
@@ -355,14 +351,6 @@ aside button:hover {
 
   .certificates {
     margin-bottom: 6%;
-  }
-
-  .certificates .carousel-cell {
-    width: 500px;
-  }
-
-  .certificates .carousel-cell img {
-    width: 500px;
   }
 
   aside button {
@@ -422,11 +410,13 @@ aside button:hover {
 
   .portfolio .carousel-cell {
     width: 80vw;
+    height: 45vw;
     margin-right: 10px;
   }
   
   .portfolio .carousel-cell img {
     width: 80vw;
+    height: 45vw;
   }
 
   /* EDUCATION */
@@ -452,10 +442,12 @@ aside button:hover {
 
   .certificates .carousel-cell {
     width: 300px;
+    height: 232px;
   }
 
   .certificates .carousel-cell img {
     width: 300px;
+    height: 232px;
   }
 
   /* CONTACTS */
